@@ -1,35 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>Spendze</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <title>Spendze</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
   <div id="banner">
     <h1>Spendze</h1>
     <p id="intro">
-      Your persoanl financial advisor. 
+      Your persoanl financial advisor.
     </p>
     <p id="steps">
       Great - you just created an Item! Spendze was able to pull your transaction data and successfully completed the analysis.
-      
+
     </p>
   </div>
 
   <div id="container">
     <p>
-      Spendze is your personal financial assistant and advisor. Spendze can identify your spending patterns across all your financial bank account, credit cards and debit cards and provide you predictions and recomendations to save and your fiancial expenditure.
-      Let Spendze help you. 
+      Spendze is your personal financial assistant and advisor. Spendze can identify your spending patterns across all your financial
+      bank account, credit cards and debit cards and provide you predictions and recomendations to save and your fiancial
+      expenditure. Let Spendze help you.
     </p>
 
     <button id="link-btn" style="color:white">Start Spendze</button>
@@ -37,17 +43,17 @@
 
   <div id="app">
     <div class="box">
-      <button id="get-accounts-btn"  style="color:white">Accounts</button>
+      <button id="get-accounts-btn" style="color:white">Accounts</button>
       <div id="get-accounts-data"></div>
     </div>
 
     <div class="box">
-      <button id="get-item-btn"  style="color:white">Item</button>
+      <button id="get-item-btn" style="color:white">Item</button>
       <div id="get-item-data"></div>
     </div>
 
     <div class="box">
-      <button id="get-transactions-btn"  style="color:white">Transactions</button>
+      <button id="get-transactions-btn" style="color:white">Transactions</button>
       <div id="get-transactions-data"></div>
     </div>
     <!--<div class="box">
@@ -55,7 +61,7 @@
       <div id="get-json-data"></div>
     </div> -->
     <div class="box">
-      <button id="get-visualize-btn"  style="color:white">Spendze Assistant</button>
+      <button id="get-visualize-btn" style="color:white">Spendze Assistant</button>
       <div id="get-visualize-data"></div>
     </div>
   </div>
@@ -63,159 +69,173 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
   <script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
   <script>
-  (function($) {
-    var handler = Plaid.create({
-      apiVersion: 'v2',
-      clientName: 'Plaid Walkthrough Demo',
-      env: '<%= PLAID_ENV %>',
-      product: ['transactions'],
-      key: '<%= PLAID_PUBLIC_KEY %>',
-      onSuccess: function(public_token) {
-        $.post('/get_access_token', {
-          public_token: public_token
-        }, function() {
-          $('#container').fadeOut('fast', function() {
-            $('#intro').hide();
-            $('#app, #steps').fadeIn('slow');
+    (function ($) {
+      var handler = Plaid.create({
+        apiVersion: 'v2',
+        clientName: 'Plaid Walkthrough Demo',
+        env: '<%= PLAID_ENV %>',
+        product: ['transactions'],
+        key: '<%= PLAID_PUBLIC_KEY %>',
+        onSuccess: function (public_token) {
+          $.post('/get_access_token', {
+            public_token: public_token
+          }, function () {
+            $('#container').fadeOut('fast', function () {
+              $('#intro').hide();
+              $('#app, #steps').fadeIn('slow');
+            });
           });
-        });
-      },
-    });
+        },
+      });
 
-    $('#link-btn').on('click', function(e) {
-      handler.open();
-    });
+      $('#link-btn').on('click', function (e) {
+        handler.open();
+      });
 
-    $('#get-accounts-btn').on('click', function(e) {
-      $.get('/accounts', function(data) {
-        $('#get-accounts-data').slideUp(function() {
-          var html = '';
-          data.accounts.forEach(function(account, idx) {
+      /*CALLS TO POPULATE DATA BOXES AND HIDE*/
+
+      /*account data*/
+      $.get('/accounts', function (data) {
+        var html = '';
+        if (data.error)
+          html = '<p>' + data.error + '</p>';
+        else {
+          data.accounts.forEach(function (account, idx) {
             html += '<div class="inner">';
             html += '<strong>' + account.name +
               ' $' + (account.balances.available != null ? account.balances.available : account.balances.current) + '</strong><br>';
             html += account.subtype + ' ' + account.mask;
             html += '</div>';
           });
-
-          $(this).html(html).slideDown();
-        });
+        }
+        $('#get-accounts-data').html(html).slideUp();
       });
-    });
 
-    $('#get-item-btn').on('click', function(e) {
-      $.post('/item', function(data) {
-        $('#get-item-data').slideUp(function() {
-          if (data.error)
-            $(this).html('<p>' + data.error + '</p>').slideDown();
-          else {
-            var html = '<div class="inner">';
-            html += '<p>Here\'s some basic information about your Item:</p>';
-            html += '<p>Institution name:' + data.institution.name + '</p>';
-            html += '<p>Billed products: ' + data.item.billed_products.join(', ') + '</p>';
-            html += '<p>Available products: ' + data.item.available_products.join(', ') + '</p>';
+      /*item data*/
+      $.post('/item', function (data) {
+        var html = '';
+        if (data.error)
+          html = '<p>' + data.error + '</p>';
+        else {
+          html = '<div class="inner">';
+          html += '<p>Here\'s some basic information about your Item:</p>';
+          html += '<p>Institution name:' + data.institution.name + '</p>';
+          html += '<p>Billed products: ' + data.item.billed_products.join(', ') + '</p>';
+          html += '<p>Available products: ' + data.item.available_products.join(', ') + '</p>';
+          html += '</div>';
+        }
+        $('#get-item-data').html(html).slideUp();
+      });
+
+      /*transaction data*/
+      $.post('/transactions', function (data) {
+        var html = '';
+        if (data.error != null) {
+          html = '<div class="inner"><p>' +
+            '<strong>' + data.error.error_code + ':</strong> ' +
+            data.error.error_message + '</p></div>';
+
+          if (data.error.error_code === 'PRODUCT_NOT_READY') {
+            // Add additional context for `PRODUCT_NOT_READY` errors
+            html += '<div class="inner"><p>The PRODUCT_NOT_READY ' +
+              'error is returned when a request to retrieve Transaction data ' +
+              'is made before Plaid finishes the <a href="https://plaid.com/' +
+              'docs/quickstart/#transaction-data-with-webhooks">initial ' +
+              'transaction pull.</a></p></div>';
+          }
+        }
+        else {
+          data.transactions.forEach(function (txn, idx) {
+            html += '<div class="inner">';
+            html += '<strong>' + txn.name + '</strong><br>';
+            html += 'Amount: $' + txn.amount;
+            html += '<br>Date <em>' + txn.date + '</em>';
+            // html += '<br><em>' + txn.transaction_type + '</em>';
+            html += '<br>Category: <em>' + txn.category + '</em>';
             html += '</div>';
-
-            $(this).html(html).slideDown();
-          }
-        });
-      });
-    });
-
-    $('#get-transactions-btn').on('click', function(e) {
-      $.post('/transactions', function(data) {
-        console.log("testing transaction data");
-        //data is the json response from Plaid 
-        console.log(data);
-        if (data.error != null) {
-          // Format the error
-          var errorHtml = '<div class="inner"><p>' +
-           '<strong>' + data.error.error_code + ':</strong> ' +
-           data.error.error_message + '</p></div>';
-
-          if (data.error.error_code === 'PRODUCT_NOT_READY') {
-            // Add additional context for `PRODUCT_NOT_READY` errors
-            errorHtml += '<div class="inner"><p>The PRODUCT_NOT_READY ' +
-             'error is returned when a request to retrieve Transaction data ' +
-             'is made before Plaid finishes the <a href="https://plaid.com/' +
-             'docs/quickstart/#transaction-data-with-webhooks">initial ' +
-             'transaction pull.</a></p></div>';
-          }
-          // Render the error
-          $('#get-transactions-data').slideUp(function() {
-            $(this).slideUp(function() {
-              $(this).html(errorHtml).slideDown();
-            });
-          });
-        } else {
-          $('#get-transactions-data').slideUp(function() {
-            var html = '';
-            data.transactions.forEach(function(txn, idx) {
-              html += '<div class="inner">';
-              html += '<strong>' + txn.name + '</strong><br>';
-              html += 'Amount: $' + txn.amount;
-              html += '<br>Date <em>' + txn.date + '</em>';
-              // html += '<br><em>' + txn.transaction_type + '</em>';
-              html += '<br>Category: <em>' + txn.category + '</em>';
-              html += '</div>';
-            });
-
-            $(this).slideUp(function() {
-              $(this).html(html).slideDown();
-            });
           });
         }
+        $('#get-transactions-data').html(html).slideUp();
       });
-    });
-    $('#get-json-btn').on('click', function(e) {
-      $.post('/json', function(data) {
-        console.log("testing transaction json data");
-        //data is the json response from Plaid 
-        console.log(data);
-        if (data.error != null) {
-          // Format the error
-          var errorHtml = '<div class="inner"><p>' +
-           '<strong>' + data.error.error_code + ':</strong> ' +
-           data.error.error_message + '</p></div>';
 
-          if (data.error.error_code === 'PRODUCT_NOT_READY') {
-            // Add additional context for `PRODUCT_NOT_READY` errors
-            errorHtml += '<div class="inner"><p>The PRODUCT_NOT_READY ' +
-             'error is returned when a request to retrieve Transaction data ' +
-             'is made before Plaid finishes the <a href="https://plaid.com/' +
-             'docs/quickstart/#transaction-data-with-webhooks">initial ' +
-             'transaction pull.</a></p></div>';
-          }
-          // Render the error
-          $('#get-json-data').slideUp(function() {
-            $(this).slideUp(function() {
-              $(this).html(errorHtml).slideDown();
-            });
-          });
-        } else {
-          $('#get-json-data').slideUp(function() {
-            var html = '';
-            data.transactions.forEach(function(txn, idx) {
-              html += '<div class="inner">';
-              html += '<strong>' + txn.name + '</strong><br>';
-              html += 'Amount: $' + txn.amount;
-              html += '<br>Date <em>' + txn.date + '</em>';
-              // html += '<br><em>' + txn.transaction_type + '</em>';
-              html += '<br>Category: <em>' + txn.category + '</em>';
-              html += '</div>';
-            });
+      $('#get-visualize-btn').on('click', function (e) {
+        window.location.href = 'visualize';
+      });
 
-            $(this).slideUp(function() {
-              $(this).html(html).slideDown();
-            });
-          });
+      /*HANDLERS FOR SLIDE UP/DOWN TOGGLE BUTTONS*/
+      $('#get-accounts-btn').on('click', function (e) {
+        if ($('#get-accounts-data').is(":visible")) {
+          $('#get-accounts-data').slideUp();
+        }
+        else {
+          $('#get-accounts-data').slideDown();
         }
       });
-    });
-    $('#get-visualize-btn').on('click', function(e){
-      window.location.href='visualize';
-    });
-  })(jQuery);
+
+      $('#get-item-btn').on('click', function (e) {
+        if ($('#get-item-data').is(":visible")) {
+          $('#get-item-data').slideUp();
+        }
+        else {
+          $('#get-item-data').slideDown();
+        }
+      });
+
+      $('#get-transactions-btn').on('click', function (e) {
+        if ($('#get-transactions-data').is(":visible")) {
+          $('#get-transactions-data').slideUp();
+        }
+        else {
+          $('#get-transactions-data').slideDown();
+        }
+      });
+
+      // $('#get-json-btn').on('click', function(e) {
+      //   $.post('/json', function(data) {
+      //     console.log("testing transaction json data");
+      //     //data is the json response from Plaid 
+      //     console.log(data);
+      //     if (data.error != null) {
+      //       // Format the error
+      //       var errorHtml = '<div class="inner"><p>' +
+      //        '<strong>' + data.error.error_code + ':</strong> ' +
+      //        data.error.error_message + '</p></div>';
+      //       if (data.error.error_code === 'PRODUCT_NOT_READY') {
+      //         // Add additional context for `PRODUCT_NOT_READY` errors
+      //         errorHtml += '<div class="inner"><p>The PRODUCT_NOT_READY ' +
+      //          'error is returned when a request to retrieve Transaction data ' +
+      //          'is made before Plaid finishes the <a href="https://plaid.com/' +
+      //          'docs/quickstart/#transaction-data-with-webhooks">initial ' +
+      //          'transaction pull.</a></p></div>';
+      //       }
+      //       // Render the error
+      //       $('#get-json-data').slideUp(function() {
+      //         $(this).slideUp(function() {
+      //           $(this).html(errorHtml).slideDown();
+      //         });
+      //       });
+      //     } else {
+      //       $('#get-json-data').slideUp(function() {
+      //         var html = '';
+      //         data.transactions.forEach(function(txn, idx) {
+      //           html += '<div class="inner">';
+      //           html += '<strong>' + txn.name + '</strong><br>';
+      //           html += 'Amount: $' + txn.amount;
+      //           html += '<br>Date <em>' + txn.date + '</em>';
+      //           // html += '<br><em>' + txn.transaction_type + '</em>';
+      //           html += '<br>Category: <em>' + txn.category + '</em>';
+      //           html += '</div>';
+      //         });
+
+      //         $(this).slideUp(function() {
+      //           $(this).html(html).slideDown();
+      //         });
+      //       });
+      //     }
+      //   });
+      // });
+    })(jQuery);
   </script>
 </body>
+
 </html>
