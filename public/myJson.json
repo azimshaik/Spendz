@@ -1,0 +1,5773 @@
+{
+  "accounts": [
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "balances": {
+        "available": 100,
+        "current": 110,
+        "limit": null
+      },
+      "mask": "0000",
+      "name": "Plaid Checking",
+      "official_name": "Plaid Gold Standard 0% Interest Checking",
+      "subtype": "checking",
+      "type": "depository"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "balances": {
+        "available": 200,
+        "current": 210,
+        "limit": null
+      },
+      "mask": "1111",
+      "name": "Plaid Saving",
+      "official_name": "Plaid Silver Standard 0.1% Interest Saving",
+      "subtype": "savings",
+      "type": "depository"
+    },
+    {
+      "account_id": "l3BpNeXAVAfoDkvjjDxRIg8zwVkGnzI1mWexm",
+      "balances": {
+        "available": null,
+        "current": 1000,
+        "limit": null
+      },
+      "mask": "2222",
+      "name": "Plaid CD",
+      "official_name": "Plaid Bronze Standard 0.2% Interest CD",
+      "subtype": "cd",
+      "type": "depository"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "balances": {
+        "available": null,
+        "current": 410,
+        "limit": 2000
+      },
+      "mask": "3333",
+      "name": "Plaid Credit Card",
+      "official_name": "Plaid Diamond 12.5% APR Interest Credit Card",
+      "subtype": "credit card",
+      "type": "credit"
+    }
+  ],
+  "item": {
+    "available_products": [
+      "auth",
+      "balance"
+    ],
+    "billed_products": [
+      "transactions"
+    ],
+    "error": null,
+    "institution_id": "ins_29",
+    "item_id": "187KabeWpWsbojDyyolvF8LplQL8WDS4MemgLr",
+    "webhook": ""
+  },
+  "request_id": "eh5SF",
+  "total_transactions": 169,
+  "transactions": [
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2018-02-10",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "qk4WQLmAVASko3dEEoXjSPn7MDLgqjt8yGpLd",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 6.33,
+      "category": null,
+      "category_id": null,
+      "date": "2018-02-08",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 072515 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "wZQyoWzqVqhNyD7rryxbukzoJMLA6vcA1wn38",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2018-02-05",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Tectra Inc",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "l3BpNeXAVAfoDkvjjDxRIg8JdP7yrBF1mQPnL",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2018-02-04",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "KFC",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "kBzL47eA5AszMlKWWMGLSDNkaWMvb7Fr1nMqr",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2018-02-04",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Madison Bicycle Shop",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "JXBAmMGVeVTXlgZppl81slPRJmaEBkCpe3z1K",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": 25,
+      "category": [
+        "Payment",
+        "Credit Card"
+      ],
+      "category_id": "16001000",
+      "date": "2018-01-26",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CREDIT CARD 3333 PAYMENT *//",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "vQemkErlVlhLKRjVVKArIRm8N9JZDdFaZmygj",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 5.4,
+      "category": null,
+      "category_id": null,
+      "date": "2018-01-26",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 063015 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "VJkV9bXqAqSEPoXRRPw6IpeNVPRvbWcbZ1Go1",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "l3BpNeXAVAfoDkvjjDxRIg8zwVkGnzI1mWexm",
+      "account_owner": null,
+      "amount": 1000,
+      "category": [
+        "Transfer",
+        "Deposit"
+      ],
+      "category_id": "21007000",
+      "date": "2018-01-25",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CD DEPOSIT .INITIAL.",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "KX3Gm1ePQPTJqAMBBqv7upQnzLXVWGcgDqdKR",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 78.5,
+      "category": null,
+      "category_id": null,
+      "date": "2018-01-24",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Touchstone Climbing",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "58y3jvw5E5sxAWL44AJXS61rDvg4mbFzQlkbE",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": -500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2018-01-24",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "DXypvPrBaBTybrN66bX7S4MdPE8RBXcmLDj7e",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 12,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2018-01-23",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": "3322",
+        "zip": null
+      },
+      "name": "McDonald's",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "6Dyx7RwvWvsNAZ5ddAXRuVPQRG3dAkujPZvml",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 4.33,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Coffee Shop"
+      ],
+      "category_id": "13005043",
+      "date": "2018-01-23",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Starbucks",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "XJKq9yNrnrSy7EBpp7VPSDzKXb5ENLFpvZo96",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 89.4,
+      "category": null,
+      "category_id": null,
+      "date": "2018-01-22",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "SparkFun",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "Rnjk9WeGgGTgdPJRRd8eI9DGqxMoWbs7oyew9",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": -4.22,
+      "category": null,
+      "category_id": null,
+      "date": "2018-01-21",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "INTRST PYMNT",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "9Xy4Zqv6n6TdA1lMMARGCJ6XmeQEwqFz91dkW",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2018-01-11",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "58y3jvw5E5sxAWL44AJXS61wyGEN7mizQlkqm",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 6.33,
+      "category": null,
+      "category_id": null,
+      "date": "2018-01-09",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 072515 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "AXyMmalK3KToAQdWWAEmIMmpzWLN54CRxDqee",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2018-01-06",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Tectra Inc",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "wZQyoWzqVqhNyD7rryxbukzNWgQqB6iA1wnBw",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2018-01-05",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "KFC",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "VJkV9bXqAqSEPoXRRPw6IpeaAl4j1bCbZ1G3k",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2018-01-05",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Madison Bicycle Shop",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "DXypvPrBaBTybrN66bX7S4M7pGZQJBumLDjKw",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": 25,
+      "category": [
+        "Payment",
+        "Credit Card"
+      ],
+      "category_id": "16001000",
+      "date": "2017-12-27",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CREDIT CARD 3333 PAYMENT *//",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "35kzNyWJgJtv16xKK1GnIrg8xVpzmdtGV64WM",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 5.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-12-27",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 063015 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "Wnql9mokGkTj6KL446JbFRZqaGyMgDioQ8eaq",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "l3BpNeXAVAfoDkvjjDxRIg8zwVkGnzI1mWexm",
+      "account_owner": null,
+      "amount": 1000,
+      "category": [
+        "Transfer",
+        "Deposit"
+      ],
+      "category_id": "21007000",
+      "date": "2017-12-26",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CD DEPOSIT .INITIAL.",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "LXxn9LRPZPTrKp1WWKZwcX5ozKLyp9ugWMZZw",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 78.5,
+      "category": null,
+      "category_id": null,
+      "date": "2017-12-25",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Touchstone Climbing",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "XJKq9yNrnrSy7EBpp7VPSDzolZxkyNipvZowX",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": -500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-12-25",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "EXlo6jz343TWGwPeeGJLsXNzdWLx9VuZ57Wdz",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 12,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-12-24",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": "3322",
+        "zip": null
+      },
+      "name": "McDonald's",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "gqlQ34r7V7tXND9LLNGdswpXkn14dEIj7BAkP",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 4.33,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Coffee Shop"
+      ],
+      "category_id": "13005043",
+      "date": "2017-12-24",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Starbucks",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "8XyaQlxZGZTxryX66rZMSaBoDnEqGluvJ6DEN",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 89.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-12-23",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "SparkFun",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "oad87MRyVyiQkA3vvkL4SKEQn6lkpJU4VD6wr",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": -4.22,
+      "category": null,
+      "category_id": null,
+      "date": "2017-12-22",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "INTRST PYMNT",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "BXy1m4qkxkT3jrammjA1Uylp3E5DVwiqxEmkz",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-12-12",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "6Dyx7RwvWvsNAZ5ddAXRuVP4JgBv6AtjPZvV6",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 6.33,
+      "category": null,
+      "category_id": null,
+      "date": "2017-12-10",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 072515 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "p4kEe1JAVAHwkBxyykb4UjWwNV4Ed9i9QGPmK",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-12-07",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Tectra Inc",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "Rnjk9WeGgGTgdPJRRd8eI9Dr1R6nvWS7oyemK",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-12-06",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "KFC",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "vQemkErlVlhLKRjVVKArIRmLr7KnqDiaZmy93",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-12-06",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Madison Bicycle Shop",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "9Xy4Zqv6n6TdA1lMMARGCJ6Kgn957wCz91dXm",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": 25,
+      "category": [
+        "Payment",
+        "Credit Card"
+      ],
+      "category_id": "16001000",
+      "date": "2017-11-27",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CREDIT CARD 3333 PAYMENT *//",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "zLoRbk4zqzT3ymZWWyzgUQ71xj6aWoiDXrkel",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 5.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-11-27",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 063015 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "LXxn9LRPZPTrKp1WWKZwcX5ozKLyp9ugWMZzl",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "l3BpNeXAVAfoDkvjjDxRIg8zwVkGnzI1mWexm",
+      "account_owner": null,
+      "amount": 1000,
+      "category": [
+        "Transfer",
+        "Deposit"
+      ],
+      "category_id": "21007000",
+      "date": "2017-11-26",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CD DEPOSIT .INITIAL.",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "187KabeWpWsbojDyyolvF8Lo7WNde1fbPR664",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 78.5,
+      "category": null,
+      "category_id": null,
+      "date": "2017-11-25",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Touchstone Climbing",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "y1JvpGarlrslBzvQQBWDsN1LA76b5QCk8mV7z",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": -500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-11-25",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "187KabeWpWsbojDyyolvF8Lo7WNde1fbPR6vq",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 12,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-11-24",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": "3322",
+        "zip": null
+      },
+      "name": "McDonald's",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "ZRzrJvxBVBUjQxbDDQEXF3Jjkz6r8XUn1pZkg",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 4.33,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Coffee Shop"
+      ],
+      "category_id": "13005043",
+      "date": "2017-11-24",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Starbucks",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "MXdbmp1PMPTergLvvrkZILrWZp7KgDibRvaZL",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 89.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-11-23",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "SparkFun",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "QyPvkEeZoZuwxPW44xgJU17eAxgvZburlXbAk",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": -4.22,
+      "category": null,
+      "category_id": null,
+      "date": "2017-11-22",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "INTRST PYMNT",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "rPNAZpLwVwHvZAaxxZyXIrZvnzda5qtLk48Gl",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-11-12",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "mx3oPQeAVAsP6Kzyy6V4spePno3MB5CRQNBVZ",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 6.33,
+      "category": null,
+      "category_id": null,
+      "date": "2017-11-10",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 072515 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "ene7zdqwVwTwP7WRRPnAUPZwn5J7zjuy3QAny",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-11-07",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Tectra Inc",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "bnPNqBayVyTwQ7PyyQWrUEpwA5PNgDTg6jAMb",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-11-06",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "KFC",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "ndxgjZXAVAsn8rkdd8WQiVwnN6ZKMBtPMR1LV",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-11-06",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Madison Bicycle Shop",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "GXK8meGdPdTDMR7JJMa8U9dpjAQ5ZVSJ7vDzK",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": 25,
+      "category": [
+        "Payment",
+        "Credit Card"
+      ],
+      "category_id": "16001000",
+      "date": "2017-10-28",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CREDIT CARD 3333 PAYMENT *//",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "KX3Gm1ePQPTJqAMBBqv7upQ93kqMAWCgDqd56",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 5.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-10-28",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 063015 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "7kyde6JXAXSpA6qLLA5RHMyQbBqmjvC4BPDVz",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "l3BpNeXAVAfoDkvjjDxRIg8zwVkGnzI1mWexm",
+      "account_owner": null,
+      "amount": 1000,
+      "category": [
+        "Transfer",
+        "Deposit"
+      ],
+      "category_id": "21007000",
+      "date": "2017-10-27",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CD DEPOSIT .INITIAL.",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "MXdbmp1PMPTergLvvrkZILrWZp7KgDibRvaaQ",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 78.5,
+      "category": null,
+      "category_id": null,
+      "date": "2017-10-26",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Touchstone Climbing",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "AXyMmalK3KToAQdWWAEmIMmpzWLN54CRxDqnx",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": -500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-10-26",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "jzr1aje7V7UK7Rqaa7dNs6DKgAaZQ3ioRdnbj",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 12,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-10-25",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": "3322",
+        "zip": null
+      },
+      "name": "McDonald's",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "NXam9oeP1PTAz8p11znVsewlNpBEP6cLAdRNd",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 4.33,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Coffee Shop"
+      ],
+      "category_id": "13005043",
+      "date": "2017-10-25",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Starbucks",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "PVN9w8y7p7Sq3LgKK3eXI1g3mp6R7VuEyaqmR",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 89.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-10-24",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "SparkFun",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "4myBP93Z8ZHwoyP33oG7UQGPrvpBdni8RzGE5",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": -4.22,
+      "category": null,
+      "category_id": null,
+      "date": "2017-10-23",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "INTRST PYMNT",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "qk4WQLmAVASko3dEEoXjSPnkZ63Naqu8yGpQ8",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-10-13",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "Wnql9mokGkTj6KL446JbFRZqaGyMgDioQ8eJj",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 6.33,
+      "category": null,
+      "category_id": null,
+      "date": "2017-10-11",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 072515 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "aDN4lzE7V7s9dRLrrdloH7m9GDK1jbCpKwyGa",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-10-08",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Tectra Inc",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "EXlo6jz343TWGwPeeGJLsXNzdWLx9VuZ57Wpl",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-10-07",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "KFC",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "8XyaQlxZGZTxryX66rZMSaBoDnEqGluvJ6DkL",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-10-07",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Madison Bicycle Shop",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "gqlQ34r7V7tXND9LLNGdswpXkn14dEIj7BAvq",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": 25,
+      "category": [
+        "Payment",
+        "Credit Card"
+      ],
+      "category_id": "16001000",
+      "date": "2017-09-28",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CREDIT CARD 3333 PAYMENT *//",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "l3BpNeXAVAfoDkvjjDxRIg8ojMLEZrU1mQPMz",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 5.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-09-28",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 063015 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "db7jrxlZVZs3l7rXXlEbUW13AodD5atonKVAb",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "l3BpNeXAVAfoDkvjjDxRIg8zwVkGnzI1mWexm",
+      "account_owner": null,
+      "amount": 1000,
+      "category": [
+        "Transfer",
+        "Deposit"
+      ],
+      "category_id": "21007000",
+      "date": "2017-09-27",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CD DEPOSIT .INITIAL.",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "ZRzrJvxBVBUjQxbDDQEXF3Jjkz6r8XUn1pZdQ",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 78.5,
+      "category": null,
+      "category_id": null,
+      "date": "2017-09-26",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Touchstone Climbing",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "oad87MRyVyiQkA3vvkL4SKEQn6lkpJU4VD6Wn",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": -500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-09-26",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "xMk9JAdKVKs1zBeaazx5TLq1B6oJgQimKjrW1",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 12,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-09-25",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": "3322",
+        "zip": null
+      },
+      "name": "McDonald's",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "BXy1m4qkxkT3jrammjA1Uylp3E5DVwiqxEmJK",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 4.33,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Coffee Shop"
+      ],
+      "category_id": "13005043",
+      "date": "2017-09-25",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Starbucks",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "35kzNyWJgJtv16xKK1GnIrg8xVpzmdtGV64Np",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 89.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-09-24",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "SparkFun",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "zLoRbk4zqzT3ymZWWyzgUQ71xj6aWoiDXrk8G",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": -4.22,
+      "category": null,
+      "category_id": null,
+      "date": "2017-09-23",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "INTRST PYMNT",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "kBzL47eA5AszMlKWWMGLSDNZzEpyjbir1nMm3",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-09-13",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "p4kEe1JAVAHwkBxyykb4UjWwNV4Ed9i9QGPAW",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 6.33,
+      "category": null,
+      "category_id": null,
+      "date": "2017-09-11",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 072515 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "rPNAZpLwVwHvZAaxxZyXIrZvnzda5qtLk48Be",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-09-08",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Tectra Inc",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "LXxn9LRPZPTrKp1WWKZwcX5ozKLyp9ugWMZVw",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-09-07",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "KFC",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "187KabeWpWsbojDyyolvF8Lo7WNde1fbPR6A4",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-09-07",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Madison Bicycle Shop",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "MXdbmp1PMPTergLvvrkZILrWZp7KgDibRvadQ",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": 25,
+      "category": [
+        "Payment",
+        "Credit Card"
+      ],
+      "category_id": "16001000",
+      "date": "2017-08-29",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CREDIT CARD 3333 PAYMENT *//",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "JXBAmMGVeVTXlgZppl81slPyNpeMgBupe3znP",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 5.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-08-29",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 063015 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "KX3Gm1ePQPTJqAMBBqv7upQ93kqMAWCgDqd3X",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "l3BpNeXAVAfoDkvjjDxRIg8zwVkGnzI1mWexm",
+      "account_owner": null,
+      "amount": 1000,
+      "category": [
+        "Transfer",
+        "Deposit"
+      ],
+      "category_id": "21007000",
+      "date": "2017-08-28",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CD DEPOSIT .INITIAL.",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "QyPvkEeZoZuwxPW44xgJU17eAxgvZburlXbqb",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 78.5,
+      "category": null,
+      "category_id": null,
+      "date": "2017-08-27",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Touchstone Climbing",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "ZRzrJvxBVBUjQxbDDQEXF3Jjkz6r8XUn1pZoQ",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": -500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-08-27",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "qk4WQLmAVASko3dEEoXjSPnkZ63Naqu8yGpXr",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 12,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-08-26",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": "3322",
+        "zip": null
+      },
+      "name": "McDonald's",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "kBzL47eA5AszMlKWWMGLSDNZzEpyjbir1nMR7",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 4.33,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Coffee Shop"
+      ],
+      "category_id": "13005043",
+      "date": "2017-08-26",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Starbucks",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "l3BpNeXAVAfoDkvjjDxRIg8ojMLEZrU1mQPAg",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 89.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-08-25",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "SparkFun",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "JXBAmMGVeVTXlgZppl81slPyNpeMgBupe3zNe",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": -4.22,
+      "category": null,
+      "category_id": null,
+      "date": "2017-08-24",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "INTRST PYMNT",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "58y3jvw5E5sxAWL44AJXS61wyGEN7mizQlk6l",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-08-14",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "QyPvkEeZoZuwxPW44xgJU17eAxgvZburlXbNb",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 6.33,
+      "category": null,
+      "category_id": null,
+      "date": "2017-08-12",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 072515 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "58y3jvw5E5sxAWL44AJXS61wyGEN7mizQlkL8",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-08-09",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Tectra Inc",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "ene7zdqwVwTwP7WRRPnAUPZwn5J7zjuy3QAqo",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-08-08",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "KFC",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "7kyde6JXAXSpA6qLLA5RHMyQbBqmjvC4BPDEE",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-08-08",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Madison Bicycle Shop",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "jzr1aje7V7UK7Rqaa7dNs6DKgAaZQ3ioRdnNz",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": 25,
+      "category": [
+        "Payment",
+        "Credit Card"
+      ],
+      "category_id": "16001000",
+      "date": "2017-07-30",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CREDIT CARD 3333 PAYMENT *//",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "wZQyoWzqVqhNyD7rryxbukzNWgQqB6iA1wnQ9",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 5.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-07-30",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 063015 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "wZQyoWzqVqhNyD7rryxbukzNWgQqB6iA1wndV",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "l3BpNeXAVAfoDkvjjDxRIg8zwVkGnzI1mWexm",
+      "account_owner": null,
+      "amount": 1000,
+      "category": [
+        "Transfer",
+        "Deposit"
+      ],
+      "category_id": "21007000",
+      "date": "2017-07-29",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CD DEPOSIT .INITIAL.",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "ene7zdqwVwTwP7WRRPnAUPZwn5J7zjuy3QAoo",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 78.5,
+      "category": null,
+      "category_id": null,
+      "date": "2017-07-28",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Touchstone Climbing",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "PVN9w8y7p7Sq3LgKK3eXI1g3mp6R7VuEyaqxm",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": -500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-07-28",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "VJkV9bXqAqSEPoXRRPw6IpeaAl4j1bCbZ1GAP",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 12,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-07-27",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": "3322",
+        "zip": null
+      },
+      "name": "McDonald's",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "db7jrxlZVZs3l7rXXlEbUW13AodD5atonKVAx",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 4.33,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Coffee Shop"
+      ],
+      "category_id": "13005043",
+      "date": "2017-07-27",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Starbucks",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "aDN4lzE7V7s9dRLrrdloH7m9GDK1jbCpKwyGL",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 89.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-07-26",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "SparkFun",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "xMk9JAdKVKs1zBeaazx5TLq1B6oJgQimKjrWq",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": -4.22,
+      "category": null,
+      "category_id": null,
+      "date": "2017-07-25",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "INTRST PYMNT",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "VJkV9bXqAqSEPoXRRPw6IpeaAl4j1bCbZ1GDm",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-07-15",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "NXam9oeP1PTAz8p11znVsewlNpBEP6cLAdRlk",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 6.33,
+      "category": null,
+      "category_id": null,
+      "date": "2017-07-13",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 072515 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "35kzNyWJgJtv16xKK1GnIrg8xVpzmdtGV64Nz",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-07-10",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Tectra Inc",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "4myBP93Z8ZHwoyP33oG7UQGPrvpBdni8RzG6W",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-07-09",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "KFC",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "aDN4lzE7V7s9dRLrrdloH7m9GDK1jbCpKwyjX",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-07-09",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Madison Bicycle Shop",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "db7jrxlZVZs3l7rXXlEbUW13AodD5atonKV8l",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": 25,
+      "category": [
+        "Payment",
+        "Credit Card"
+      ],
+      "category_id": "16001000",
+      "date": "2017-06-30",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CREDIT CARD 3333 PAYMENT *//",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "DXypvPrBaBTybrN66bX7S4M7pGZQJBumLDjZo",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 5.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-06-30",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 063015 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "BXy1m4qkxkT3jrammjA1Uylp3E5DVwiqxEmJd",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "l3BpNeXAVAfoDkvjjDxRIg8zwVkGnzI1mWexm",
+      "account_owner": null,
+      "amount": 1000,
+      "category": [
+        "Transfer",
+        "Deposit"
+      ],
+      "category_id": "21007000",
+      "date": "2017-06-29",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CD DEPOSIT .INITIAL.",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "7kyde6JXAXSpA6qLLA5RHMyQbBqmjvC4BPD7E",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 78.5,
+      "category": null,
+      "category_id": null,
+      "date": "2017-06-28",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Touchstone Climbing",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "xMk9JAdKVKs1zBeaazx5TLq1B6oJgQimKjr5N",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": -500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-06-28",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "zLoRbk4zqzT3ymZWWyzgUQ71xj6aWoiDXrk8x",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 12,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-06-27",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": "3322",
+        "zip": null
+      },
+      "name": "McDonald's",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "KX3Gm1ePQPTJqAMBBqv7upQ93kqMAWCgDqdrd",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 4.33,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Coffee Shop"
+      ],
+      "category_id": "13005043",
+      "date": "2017-06-27",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Starbucks",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "rPNAZpLwVwHvZAaxxZyXIrZvnzda5qtLk48NK",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 89.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-06-26",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "SparkFun",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "qk4WQLmAVASko3dEEoXjSPnkZ63Naqu8yGpB4",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": -4.22,
+      "category": null,
+      "category_id": null,
+      "date": "2017-06-25",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "INTRST PYMNT",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "XJKq9yNrnrSy7EBpp7VPSDzolZxkyNipvZoDQ",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-06-15",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "35kzNyWJgJtv16xKK1GnIrg8xVpzmdtGV6478",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 6.33,
+      "category": null,
+      "category_id": null,
+      "date": "2017-06-13",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 072515 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "l3BpNeXAVAfoDkvjjDxRIg8ojMLEZrU1mQP6K",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-06-10",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Tectra Inc",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "BXy1m4qkxkT3jrammjA1Uylp3E5DVwiqxEm9A",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-06-09",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "KFC",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "zLoRbk4zqzT3ymZWWyzgUQ71xj6aWoiDXrkA3",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-06-09",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Madison Bicycle Shop",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "rPNAZpLwVwHvZAaxxZyXIrZvnzda5qtLk48r7",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": 25,
+      "category": [
+        "Payment",
+        "Credit Card"
+      ],
+      "category_id": "16001000",
+      "date": "2017-05-31",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CREDIT CARD 3333 PAYMENT *//",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "6Dyx7RwvWvsNAZ5ddAXRuVP4JgBv6AtjPZvzW",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 5.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-05-31",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 063015 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "kBzL47eA5AszMlKWWMGLSDNZzEpyjbir1nMAg",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "l3BpNeXAVAfoDkvjjDxRIg8zwVkGnzI1mWexm",
+      "account_owner": null,
+      "amount": 1000,
+      "category": [
+        "Transfer",
+        "Deposit"
+      ],
+      "category_id": "21007000",
+      "date": "2017-05-30",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CD DEPOSIT .INITIAL.",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "jzr1aje7V7UK7Rqaa7dNs6DKgAaZQ3ioRdnrz",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 78.5,
+      "category": null,
+      "category_id": null,
+      "date": "2017-05-29",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Touchstone Climbing",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "KX3Gm1ePQPTJqAMBBqv7upQ93kqMAWCgDqdlV",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": -500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-05-29",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "JXBAmMGVeVTXlgZppl81slPyNpeMgBupe3zwN",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 12,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-05-28",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": "3322",
+        "zip": null
+      },
+      "name": "McDonald's",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "wZQyoWzqVqhNyD7rryxbukzNWgQqB6iA1wnKM",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 4.33,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Coffee Shop"
+      ],
+      "category_id": "13005043",
+      "date": "2017-05-28",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Starbucks",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "58y3jvw5E5sxAWL44AJXS61wyGEN7mizQlkjj",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 89.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-05-27",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "SparkFun",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "VJkV9bXqAqSEPoXRRPw6IpeaAl4j1bCbZ1GND",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": -4.22,
+      "category": null,
+      "category_id": null,
+      "date": "2017-05-26",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "INTRST PYMNT",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "Rnjk9WeGgGTgdPJRRd8eI9Dr1R6nvWS7oyeZv",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-05-16",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "qk4WQLmAVASko3dEEoXjSPnkZ63Naqu8yGpeJ",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 6.33,
+      "category": null,
+      "category_id": null,
+      "date": "2017-05-14",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 072515 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "DXypvPrBaBTybrN66bX7S4M7pGZQJBumLDjG7",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-05-11",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Tectra Inc",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "l3BpNeXAVAfoDkvjjDxRIg8ojMLEZrU1mQPK1",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-05-10",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "KFC",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "kBzL47eA5AszMlKWWMGLSDNZzEpyjbir1nM4G",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-05-10",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Madison Bicycle Shop",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "JXBAmMGVeVTXlgZppl81slPyNpeMgBupe3zlG",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": 25,
+      "category": [
+        "Payment",
+        "Credit Card"
+      ],
+      "category_id": "16001000",
+      "date": "2017-05-01",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CREDIT CARD 3333 PAYMENT *//",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "vQemkErlVlhLKRjVVKArIRmLr7KnqDiaZmywD",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 5.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-05-01",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 063015 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "XJKq9yNrnrSy7EBpp7VPSDzolZxkyNipvZo8y",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "l3BpNeXAVAfoDkvjjDxRIg8zwVkGnzI1mWexm",
+      "account_owner": null,
+      "amount": 1000,
+      "category": [
+        "Transfer",
+        "Deposit"
+      ],
+      "category_id": "21007000",
+      "date": "2017-04-30",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CD DEPOSIT .INITIAL.",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "PVN9w8y7p7Sq3LgKK3eXI1g3mp6R7VuEyaqpm",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 78.5,
+      "category": null,
+      "category_id": null,
+      "date": "2017-04-29",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Touchstone Climbing",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "58y3jvw5E5sxAWL44AJXS61wyGEN7mizQlkam",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": -500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-04-29",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "6Dyx7RwvWvsNAZ5ddAXRuVP4JgBv6AtjPZvnx",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 12,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-04-28",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": "3322",
+        "zip": null
+      },
+      "name": "McDonald's",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "vQemkErlVlhLKRjVVKArIRmLr7KnqDiaZmyVv",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 4.33,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Coffee Shop"
+      ],
+      "category_id": "13005043",
+      "date": "2017-04-28",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Starbucks",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "Rnjk9WeGgGTgdPJRRd8eI9Dr1R6nvWS7oye5X",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 89.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-04-27",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "SparkFun",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "9Xy4Zqv6n6TdA1lMMARGCJ6Kgn957wCz91dM4",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": -4.22,
+      "category": null,
+      "category_id": null,
+      "date": "2017-04-26",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "INTRST PYMNT",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "9Xy4Zqv6n6TdA1lMMARGCJ6Kgn957wCz91dKp",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-04-16",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "wZQyoWzqVqhNyD7rryxbukzNWgQqB6iA1wn4w",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 6.33,
+      "category": null,
+      "category_id": null,
+      "date": "2017-04-14",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 072515 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "y1JvpGarlrslBzvQQBWDsN1LA76b5QCk8mVpy",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-04-11",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Tectra Inc",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "VJkV9bXqAqSEPoXRRPw6IpeaAl4j1bCbZ1Gjk",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-04-10",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "KFC",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "aDN4lzE7V7s9dRLrrdloH7m9GDK1jbCpKwyja",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-04-10",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Madison Bicycle Shop",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "db7jrxlZVZs3l7rXXlEbUW13AodD5atonKV8b",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": 25,
+      "category": [
+        "Payment",
+        "Credit Card"
+      ],
+      "category_id": "16001000",
+      "date": "2017-04-01",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CREDIT CARD 3333 PAYMENT *//",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "y1JvpGarlrslBzvQQBWDsN1LA76b5QCk8mVgR",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 5.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-04-01",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 063015 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "mx3oPQeAVAsP6Kzyy6V4spePno3MB5CRQNB87",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "l3BpNeXAVAfoDkvjjDxRIg8zwVkGnzI1mWexm",
+      "account_owner": null,
+      "amount": 1000,
+      "category": [
+        "Transfer",
+        "Deposit"
+      ],
+      "category_id": "21007000",
+      "date": "2017-03-31",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CD DEPOSIT .INITIAL.",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "NXam9oeP1PTAz8p11znVsewlNpBEP6cLAdRPk",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 78.5,
+      "category": null,
+      "category_id": null,
+      "date": "2017-03-30",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Touchstone Climbing",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "xMk9JAdKVKs1zBeaazx5TLq1B6oJgQimKjr51",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": -500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-03-30",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "bnPNqBayVyTwQ7PyyQWrUEpwA5PNgDTg6jArg",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 12,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-03-29",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": "3322",
+        "zip": null
+      },
+      "name": "McDonald's",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "GXK8meGdPdTDMR7JJMa8U9dpjAQ5ZVSJ7vDRL",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 4.33,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Coffee Shop"
+      ],
+      "category_id": "13005043",
+      "date": "2017-03-29",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Starbucks",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "ndxgjZXAVAsn8rkdd8WQiVwnN6ZKMBtPMR1g7",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 89.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-03-28",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "SparkFun",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "AXyMmalK3KToAQdWWAEmIMmpzWLN54CRxDq3m",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": -4.22,
+      "category": null,
+      "category_id": null,
+      "date": "2017-03-27",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "INTRST PYMNT",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "mx3oPQeAVAsP6Kzyy6V4spePno3MB5CRQNBry",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-03-17",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "35kzNyWJgJtv16xKK1GnIrg8xVpzmdtGV647p",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 6.33,
+      "category": null,
+      "category_id": null,
+      "date": "2017-03-15",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 072515 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "Wnql9mokGkTj6KL446JbFRZqaGyMgDioQ8eq8",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-03-12",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Tectra Inc",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "BXy1m4qkxkT3jrammjA1Uylp3E5DVwiqxEm9K",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-03-11",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "KFC",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "zLoRbk4zqzT3ymZWWyzgUQ71xj6aWoiDXrkAG",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": null,
+      "category_id": null,
+      "date": "2017-03-11",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Madison Bicycle Shop",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "rPNAZpLwVwHvZAaxxZyXIrZvnzda5qtLk48re",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": 25,
+      "category": [
+        "Payment",
+        "Credit Card"
+      ],
+      "category_id": "16001000",
+      "date": "2017-03-02",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CREDIT CARD 3333 PAYMENT *//",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "bnPNqBayVyTwQ7PyyQWrUEpwA5PNgDTg6jABK",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 5.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-03-02",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Uber 063015 SF**POOL**",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "EXlo6jz343TWGwPeeGJLsXNzdWLx9VuZ57W3Q",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "l3BpNeXAVAfoDkvjjDxRIg8zwVkGnzI1mWexm",
+      "account_owner": null,
+      "amount": 1000,
+      "category": [
+        "Transfer",
+        "Deposit"
+      ],
+      "category_id": "21007000",
+      "date": "2017-03-01",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "CD DEPOSIT .INITIAL.",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "4myBP93Z8ZHwoyP33oG7UQGPrvpBdni8RzGjW",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 78.5,
+      "category": null,
+      "category_id": null,
+      "date": "2017-02-28",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Touchstone Climbing",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "KX3Gm1ePQPTJqAMBBqv7upQ93kqMAWCgDqdlX",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": -500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-02-28",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "8XyaQlxZGZTxryX66rZMSaBoDnEqGluvJ6De1",
+      "transaction_type": "special"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 12,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Fast Food"
+      ],
+      "category_id": "13005032",
+      "date": "2017-02-27",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": "3322",
+        "zip": null
+      },
+      "name": "McDonald's",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "oad87MRyVyiQkA3vvkL4SKEQn6lkpJU4VD6Gj",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 4.33,
+      "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Coffee Shop"
+      ],
+      "category_id": "13005043",
+      "date": "2017-02-27",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "Starbucks",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "gqlQ34r7V7tXND9LLNGdswpXkn14dEIj7BAd6",
+      "transaction_type": "place"
+    },
+    {
+      "account_id": "JXBAmMGVeVTXlgZppl81slPqZ97w1qipejvPJ",
+      "account_owner": null,
+      "amount": 89.4,
+      "category": null,
+      "category_id": null,
+      "date": "2017-02-26",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "SparkFun",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "p4kEe1JAVAHwkBxyykb4UjWwNV4Ed9i9QGP84",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "58y3jvw5E5sxAWL44AJXS61WKVPX5WtzQVAm7",
+      "account_owner": null,
+      "amount": -4.22,
+      "category": null,
+      "category_id": null,
+      "date": "2017-02-25",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "INTRST PYMNT",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "ndxgjZXAVAsn8rkdd8WQiVwnN6ZKMBtPMR1J9",
+      "transaction_type": "unresolved"
+    },
+    {
+      "account_id": "kBzL47eA5AszMlKWWMGLSDNLwlr6VLtr1Eevo",
+      "account_owner": null,
+      "amount": 500,
+      "category": [
+        "Travel",
+        "Airlines and Aviation Services"
+      ],
+      "category_id": "22001000",
+      "date": "2017-02-15",
+      "location": {
+        "address": null,
+        "city": null,
+        "lat": null,
+        "lon": null,
+        "state": null,
+        "store_number": null,
+        "zip": null
+      },
+      "name": "United Airlines",
+      "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+      },
+      "pending": false,
+      "pending_transaction_id": null,
+      "transaction_id": "qk4WQLmAVASko3dEEoXjSPnkZ63Naqu8yGper",
+      "transaction_type": "special"
+    }
+  ],
+  "status_code": 200
+}
