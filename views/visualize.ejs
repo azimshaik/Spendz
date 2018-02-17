@@ -1,0 +1,35 @@
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+var data = '<%-JSON.stringify(users)%>' 
+var dataRaw = '<%-users%>' 
+// console.log(data);
+// console.log(dataRaw);
+</script>
+<script>
+$( document ).ready(function() {
+    $.ajax({
+      url :"/json",
+      success: function(result){
+        console.log(result);
+      }
+    });
+});
+</script>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Plaid Walkthrough Example</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="myscript.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div id="banner">
+    <h1>Plaid Example Walkthrough</h1>
+</body>
+</html>
+
