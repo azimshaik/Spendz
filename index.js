@@ -14,7 +14,7 @@ var PLAID_ENV = envvar.string('PLAID_ENV', 'sandbox');
 // var PLAID_CLIENT_ID = '';
 // var PLAID_SECRET = '';
 // var PLAID_PUBLIC_KEY = '';
-// var PLAID_ENV = 'sandbox';
+// var PLAID_ENV = envvar.string('PLAID_ENV', 'sandbox');
 
 // We store the access_token in memory - in production, store it in a secure
 // persistent data store
