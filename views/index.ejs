@@ -2,54 +2,60 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Plaid Walkthrough Example</title>
+<title>Spendze</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <div id="banner">
-    <h1>Plaid Example Walkthrough</h1>
+    <h1>Spendze</h1>
     <p id="intro">
-      This is an example application that walks through integrating Plaid Link using the API to retrieve Auth and Transaction data.
+      Your persoanl financial advisor. 
     </p>
     <p id="steps">
-      Great - you just created an Item! The server was successfully able to exchange the public_token for an access_token.
-      Below are a few options - you can get account data, retrieve information about the Item itself, or pull transaction data.
+      Great - you just created an Item! Spendze was able to pull your transaction data and successfully completed the analysis.
+      
     </p>
   </div>
 
   <div id="container">
     <p>
-      Click the button below to open a list of Institutions - after you select one,
-      you'll be guided through an authentication process. The public_token will be passed
-      back to the example server, which will then exchange it for an access token and log it
-      to your console.
+      Spendze is your personal financial assistant and advisor. Spendze can identify your spending patterns across all your financial bank account, credit cards and debit cards and provide you predictions and recomendations to save and your fiancial expenditure.
+      Let Spendze help you. 
     </p>
 
-    <button id="link-btn">Link Account</button>
+    <button id="link-btn" style="color:white">Start Spendze</button>
   </div>
 
   <div id="app">
     <div class="box">
-      <button id="get-accounts-btn">Get Accounts</button>
+      <button id="get-accounts-btn"  style="color:white">Accounts</button>
       <div id="get-accounts-data"></div>
     </div>
 
     <div class="box">
-      <button id="get-item-btn">Get Item</button>
+      <button id="get-item-btn"  style="color:white">Item</button>
       <div id="get-item-data"></div>
     </div>
 
     <div class="box">
-      <button id="get-transactions-btn">Get Transactions</button>
+      <button id="get-transactions-btn"  style="color:white">Transactions</button>
       <div id="get-transactions-data"></div>
     </div>
-    <div class="box">
+    <!--<div class="box">
       <button id="get-json-btn">Get json</button>
       <div id="get-json-data"></div>
-    </div>
+    </div> -->
     <div class="box">
-      <button id="get-visualize-btn">Get Visualize</button>
+      <button id="get-visualize-btn"  style="color:white">Spendze Assistant</button>
       <div id="get-visualize-data"></div>
     </div>
   </div>
